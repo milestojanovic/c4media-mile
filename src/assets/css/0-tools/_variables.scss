@@ -1,0 +1,68 @@
+// Breakpoints
+$medium-screen: 600px;
+$large-screen: 900px;
+
+// Typography
+$base-font-family: $font-stack-system;
+$heading-font-family: $base-font-family;
+
+$modular-scale-ratio: $golden;
+
+
+// Font Sizes
+$base-font-size: .9em;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+
+/* Coolors Exported Palette - coolors.co/12b72d-fcfafa-c8d3d5-a4b8c4-6e8387 */
+
+/* HSL */
+$color1: hsla(130%, 82%, 39%, 1);
+$color2: hsla(0%, 25%, 98%, 1);
+$color3: hsla(189%, 13%, 81%, 1);
+$color4: hsla(203%, 21%, 71%, 1);
+$color5: hsla(190%, 10%, 48%, 1);
+
+/* RGB */
+$color1: rgba(18, 183, 45, 1);
+$color2: rgba(252, 250, 250, 1);
+$color3: rgba(200, 211, 213, 1);
+$color4: rgba(164, 184, 196, 1);
+$color5: rgba(110, 131, 135, 1);
+
+
+
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $color1;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;

@@ -1,0 +1,66 @@
+// Style-guide page styles
+
+
+.container {
+	@include outer-container(1200px);
+}
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 300px;
+	height: auto;
+	display: block;
+	padding: 5em 0em;
+	@include media($mobile) {
+		width: 250px;
+		padding: 5em 0;
+	}
+}
+h1.jumbo {
+	font-size: 6rem;
+	line-height: 1;
+	color: $light-gray;
+	margin-bottom: 2rem;
+	@include media($desktop) {
+		font-size: 8rem;
+	}
+	@include media($tablet) {
+		font-size: 7rem;
+	}
+}
+.lead {
+	font-size: 1.2em;
+	// line-height: 1;
+	font-weight: 300;
+}
+
+.box	{
+	background: $color5;
+	margin-bottom: 1px;
+	@include pad(1em);
+	@include fill-parent();
+	@include media($desktop) {
+		@include span-columns(2);
+		@include omega(6n);
+	}
+	@include media($tablet) {
+		@include span-columns(2);
+		@include omega(4n);
+	}
+}
+
+.box--color1 {background-color: $color1;}
+.box--color2 {background-color: $color2;}
+.box--color3 {background-color: $color3;}
+.box--color4 {background-color: $color4;}
+.box--color5 {background-color: $color5;}
+
+.type-sample {
+	@include span-columns(6);
+	font-size: modular-scale(4);
+	line-height: 1;
+	word-wrap: break-word;
+}
