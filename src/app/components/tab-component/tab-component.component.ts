@@ -12,22 +12,24 @@ export class TabComponentComponent implements OnInit {
       title: 'InfoQ Reader',
       subtitle: 'learn about InfoQ',
       image: 'InfoQ.svg',
-      icon: 'lnr-arrow-right'
+      icon: 'lnr-arrow-right',
+      openlink: '_blank'
     },
     {
       link: 'https://qconferences.com',
       title: 'QCon Attendee / Speaker',
       subtitle: 'learn about InfoQ',
       image: 'qcon.svg',
-      icon: 'lnr-arrow-right'
+      icon: 'lnr-arrow-right',
+      openlink: '_blank'
     },
     {
-      link: '/',
+      link: '/assets/files/TheInfoQeMag-QCon.pdf',
       title: 'QCon Exhibitor / InfoQ Advertiser',
       subtitle: 'download file',
       image: 'icon-file.png',
-      icon: 'lnr-download'
-
+      icon: 'lnr-download',
+      openlink: '_blank'
     },
     {
       link: '/career',

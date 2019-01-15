@@ -4,7 +4,6 @@ import { CareerComponent } from './pages/career/career.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 
 const routes: Routes = [
-    // { path: 'test', loadChildren: './test-module/test.module#TestModule' },
   { path: 'career', component: CareerComponent },
   { path: '', component: HomepageComponent }
 ];

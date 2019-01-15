@@ -1,0 +1,44 @@
+section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.about-page {
+	p {
+		font-size: 1rem;
+		line-height: 1.7rem;
+		font-weight: 400;
+		padding-bottom: 24px;
+		color: #707070;
+		white-space: normal;
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+.grey-section {
+	background: #fafafa;
+}
+
+.blue-section {
+	background: $color2;
+	color: white !important;
+	text-align: center;
+	p {
+		font-size: 1rem;
+		line-height: 1.7rem;
+		font-weight: 400;
+		padding-bottom: 24px;
+		color: white !important;
+		white-space: normal;
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+}

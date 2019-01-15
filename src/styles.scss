@@ -21,6 +21,9 @@
 @import 'assets/css/1-base/wtf-forms';
 
 // 2 - MODULES - micro and macro (widgets, blocks, headers, footers etc)
-
+@import 'assets/css/2-modules/back-module';
 
 // 3 - PAGES - page specific styling (home, contact etc..)ß
+
+@import 'assets/css/3-pages/global-pages';
+@import 'assets/css/3-pages/career-page';
