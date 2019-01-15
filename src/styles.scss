@@ -1,13 +1,3 @@
-
-html, body{
-      font-family: 'Roboto',Helvetica,Arial,sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 400;
-}
-
 // This is the single file output by sass. It is intended to ONLY @import other files.
 
 // 0 - TOOLS - vendor and third-party styles
@@ -16,6 +6,7 @@ h1, h2, h3, h4, h5, h6{
 @import 'assets/css/0-tools/variables';
 @import 'assets/css/0-tools/grid-settings';
 @import 'assets/css/0-tools/neat/neat';
+@import 'assets/css/0-tools/icons';
 
 
 // 1 - BASE - boilerplate code for styleguide, covers all generic HTML elements (headings, buttons, tables etc..)
@@ -34,4 +25,3 @@ h1, h2, h3, h4, h5, h6{
 
 // 3 - PAGES - page specific styling (home, contact etc..)
 @import 'assets/css/3-pages/example-page';
- 

@@ -1,0 +1,121 @@
+.navigation{
+  padding-top: 40px;
+  padding-bottom: 20px;
+position: relative;
+display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    @media only screen and (max-width: 768px) {
+      display: block;
+    }
+    .btn{
+      @media only screen and (max-width: 768px) {
+      float: right;
+      }
+    }
+  .logo{
+      display: inline-block;
+      @media only screen and (max-width: 768px) {
+      float: left;
+      }
+      img{
+        height: 40px;
+      }
+  }
+
+  ul{
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+      font-family: 'Fira Sans', sans-serif;
+          @media only screen and (max-width: 768px) {
+            background: white;
+            display: block;
+            position: absolute;
+top: 100px;
+
+width: 100%;
+z-index: 100;
+  border-bottom: 1px solid #f2f2f2;
+          }
+    li{
+      padding: 0 20px;
+      display: inline-block;
+      font-weight: 500;
+      font-size: 16px;
+        @media only screen and (max-width: 768px) {
+          display: block;
+          width: 100%;
+          padding: 20px;
+
+        }
+      a{
+        color: black;
+        &:hover{
+          color: #3fa3c9;
+        }
+      }
+    }
+    li.active{
+      a{
+      color: #3fa3c9 !important;
+    }
+  }
+}
+}
+
+
+.top-nav{
+  background: white;
+  border-bottom: 1px solid #f2f2f2;
+  text-align: left;
+
+span{
+  padding: 10px 0;
+  display: inline-block;
+  float: right;
+      font-size: 13px;
+  color: #666;
+  i{
+        color: #3fa3c9;
+        padding-right: 3px;
+        font-size: 20px;
+        line-height: 16px;
+
+
+vertical-align: sub;
+
+  }
+}
+ul{
+  float: left;
+  flex: 1;
+  text-align: right;
+  display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+  li{
+
+    display: inline-block;
+
+    font-size: 14px;
+    i{
+          color: #3fa3c9;
+          padding-right: 7px;
+          font-size: 20px;
+          line-height: 16px;
+        vertical-align: sub;
+
+    }
+    a{
+        color: #666;
+        padding: 10px;
+        display: inline-block;
+        font-weight: 300;
+      &:hover{
+        color: #3fa3c9;
+      }
+    }
+  }
+
+}
+}
