@@ -6,18 +6,20 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 
 import { NavigationComponent } from './components/navigation-component/navigation-component.component';
 import { TabComponentComponent } from './components/tab-component/tab-component.component';
+import { FooterComponentComponent } from './components/footer-component/footer-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     routingComponents,
-    TabComponentComponent
+    TabComponentComponent,
+    FooterComponentComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule 
-  ],
+    AppRoutingModule
+  ], 
   providers: [],
   bootstrap: [AppComponent]
 })
