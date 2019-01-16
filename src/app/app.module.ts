@@ -8,18 +8,21 @@ import { NavigationComponent } from './components/navigation-component/navigatio
 import { TabComponentComponent } from './components/tab-component/tab-component.component';
 import { FooterComponentComponent } from './components/footer-component/footer-component.component';
 
+import { CareerComponent, SafePipe } from './pages/career/career.component';
+
 @NgModule({
   declarations: [
     AppComponent,
+    SafePipe,
     NavigationComponent,
     routingComponents,
     TabComponentComponent,
-    FooterComponentComponent
+    FooterComponentComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
-  ], 
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

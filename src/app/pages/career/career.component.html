@@ -1,13 +1,27 @@
+<!-- Career page -->
+<!-- START banner -->
 <div class="banner">
    <navigation-component></navigation-component>
    <div class="container">
       <span class="line"></span>
       <h1 class="h1">Want to join us?</h1>
-      <iframe class="video" src="https://player.vimeo.com/video/183832373?title=0&byline=0&portrait=0&sidedock=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <iframe class="video" src="https://player.vimeo.com/video/183832373?title=0&byline=0&portrait=0&sidedock=0"  height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
    </div>
 </div>
+<!-- END banner -->
+<!-- START list of jobs in iFrame -->
 <div class="container">
    <section class="text-center about-page">
+      <h1 class="h1">List of jobs</h1>
+
+      <iframe width="70%" height="800px" [src]="link | safe" frameborder="0"  onload='resizeIframe(this)'>
+      </iframe>
+   </section>
+</div>
+<!-- END list of jobs in iFrame -->
+<!-- START About section -->
+<div class="container">
+   <section class="text-center about-page pt-0" id="jobs">
       <h1 class="h1">About C4Media</h1>
       <p>
          Software is changing the world. C4Media -provider of InfoQ.com and QCon conferences - is dedicated to serving the world-wide enterprise software development community with a place to track and facilitate change and innovation. All content published on the website and presented at the conferences is authored by industry practitioners. Our mission is to facilitate the spread of knowledge and innovation in the software developer community (since 2005).
@@ -20,17 +34,15 @@
          <div class="grid-images_big">
             <img src="assets/images/img_team.jpg">
          </div>
-         <div class="grid-images_small-part">
-            <div class="grid-images_small">
-               <img src="assets/images/img_team2.jpg">
-            </div>
-            <div class="grid-images_small">
-               <img src="assets/images/img_team3.jpg">
-            </div>
+         <div class="grid-images_big">
+            <img src="assets/images/img_team2.jpg">
          </div>
+
       </div>
    </section>
 </div>
+<!-- END About section -->
+<!-- START Section -->
 <section class="grey-section">
    <div class="container">
       <h1 class="h1 text-center">Our core values</h1>
@@ -92,6 +104,8 @@
       </div>
    </div>
 </section>
+<!-- END Section -->
+<!-- START Section -->
 <section class="blue-section">
    <div class="container">
       <h1 class="h1 text-center">The Team</h1>
@@ -101,6 +115,8 @@
       <a class="btn btn-outline-white" href="">Join to our team</a>
    </div>
 </section>
+<!-- END Section -->
+<!-- START Section -->
 <div class="container">
    <section class="text-center">
       <h1 class="h1">Top 5 reasons why you would like to work at C4Media</h1>
@@ -129,5 +145,10 @@
       </div>
    </section>
 </div>
+<!-- END Section -->
+<!-- START Back button -->
 <a href="/" class="back"><i class="lnr lnr-arrow-left"></i></a>
+<!-- END  Back button  -->
+<!-- START footer component -->
 <app-footer-component></app-footer-component>
+<!-- END footer component -->

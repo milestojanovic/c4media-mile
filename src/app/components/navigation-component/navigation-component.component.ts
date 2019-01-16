@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./navigation-component.component.scss']
 })
 export class NavigationComponent {
+
 }

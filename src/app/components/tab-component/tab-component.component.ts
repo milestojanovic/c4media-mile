@@ -24,7 +24,7 @@ export class TabComponentComponent implements OnInit {
       openlink: '_blank'
     },
     {
-      link: '/assets/files/TheInfoQeMag-QCon.pdf',
+      link: '/src/assets/files/TheInfoQeMag-QCon.pdf',
       title: 'QCon Exhibitor / InfoQ Advertiser',
       subtitle: 'download file',
       image: 'icon-file.png',
