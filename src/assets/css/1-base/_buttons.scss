@@ -81,6 +81,9 @@
   color: $color1;
   border-radius: 50px;
   border: 2px solid $color1;
+  	@media only screen and (max-width: 768px) {
+      font-size: 14px;
+    }
 }
 
 .btn-outline-white{

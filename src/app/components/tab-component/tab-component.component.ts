@@ -35,11 +35,12 @@ export class TabComponentComponent implements OnInit {
       link: '/career',
       title: 'Careers',
       subtitle: 'learn about InfoQ',
-      image: 'logo-black.png',
+      image: 'logo-black.svg',
       icon: 'lnr-arrow-right'
-    },
+    }
   ]
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

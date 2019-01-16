@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./jobs-list.component.scss']
 })
 export class JobsListComponent implements OnInit {
-
+  
   jobs = [
     {
       link: 'https://www.workable.com/j/4797D2A832',
@@ -61,11 +61,11 @@ export class JobsListComponent implements OnInit {
       title: 'Front-end Developer (Remote & full time)',
       department: 'IT',
       location: 'Romania, Timiș County, Timișoara',
-    },
+    }
 
   ]
-
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

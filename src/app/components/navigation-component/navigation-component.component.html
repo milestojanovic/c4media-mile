@@ -3,20 +3,28 @@
    <div class="container">
       <ul>
          <li><a href=""><i class="lnr lnr-arrow-left"></i>Back to home</a></li>
-         <li><a href=""><i class="lnr lnr-earth"></i>About</a></li>
-         <li><a href=""><i class="lnr lnr-envelope"></i>Contact</a></li>
+         <li><a href="http://c4media.com/contact.html"><i class="lnr lnr-earth"></i>About</a></li>
+         <li><a href="http://c4media.com/about.html"><i class="lnr lnr-envelope"></i>Contact</a></li>
       </ul>
-      <span><i class="lnr lnr-envelope"></i>careers@c4media.com</span>
+      <span><i class="lnr lnr-envelope"></i><a href="mailto:careers@c4media.com">careers@c4media.com</a></span>
    </div>
 </div>
 <div class="container">
-   <div class="navigation">
-      <a href="/" class="logo">  <img src="assets/images/logo-black.png"></a>
-      <ul>
+   <div class="navigation"  ng-app="menuToggle">
+      <a href="/" class="logo">  <img src="assets/images/logo-black.svg"></a>
+      <ul class="nav-content desktop-nav">
          <li><a href="https://www.infoq.com/about-infoq" target="_blank">InfoQ Reader</a></li>
          <li><a href="https://qconferences.com/" target="_blank">IteQCon Attendee / Speakerm</a></li>
          <li class="active" ><a [routerLink]="['career']">Careers</a></li>
       </ul>
-      <a href="##jobs" class="btn btn-navigation">Apply for job</a>
+      <div class="btn nav-toogle" ng-click="toggle = !toggle"><i class="lnr lnr-menu"></i></div>
+      <nav ng-show="toggle" role='navigation'>
+        <ul class="nav-content">
+           <li><a href="https://www.infoq.com/about-infoq" target="_blank">InfoQ Reader</a></li>
+           <li><a href="https://qconferences.com/" target="_blank">IteQCon Attendee / Speakerm</a></li>
+           <li class="active" ><a [routerLink]="['career']">Careers</a></li>
+        </ul>
+      </nav>
+      <a href="career#jobs" class="btn btn-navigation">Apply for job</a>
    </div>
 </div>
