@@ -1,10 +1,10 @@
 <div class="list-jobs">
   <div class="list-jobs_item" *ngFor="let job of jobs">
     <div>
-      <h3 class="h3"><a href="{{job.link}}">{{job.title}}</a></h3>
+      <h3 class="h3"><a href="{{job.link}}" target="_blank">{{job.title}}</a></h3>
       <ul class="list-jobs_item-info">
-        <li class="list-jobs_item-dept"><span>Department:</span> {{job.department}}</li>
-        <li class="list-jobs_item-location"><span>Location:</span> {{job.location}}</li>
+        <li class="list-jobs_item-dept"><span>Department: </span> <strong>{{job.department}}</strong></li>
+        <li class="list-jobs_item-location"><span>Location: </span> <strong>{{job.location}}</strong></li>
       </ul>
     </div>
     <a href="{{job.link}}" class="btn btn-navigation" target="_blank">Apply for job</a>

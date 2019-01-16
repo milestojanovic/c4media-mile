@@ -23,6 +23,7 @@ footer {
 
 .footer_top_header_one .footer_part>h5 {
 	color: black;
+	font-weight: 600;
 }
 
 .footer_part h5 {
@@ -41,6 +42,7 @@ footer {
 	background: white;
 	border-top: 1px solid #f2f2f2;
 	font-size: 12px;
+
 }
 
 .section_padding_15 {
@@ -51,6 +53,9 @@ footer {
 	color: black;
 	margin: 0;
 	font-size: 12px;
+	@media only screen and (max-width: 768px) {
+		font-size: 10px;
+	}
 	a {
 		font-size: 12px;
 	}
